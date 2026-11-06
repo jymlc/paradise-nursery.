@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="light" cx="75%" cy="30%" r="78%">
+      <stop stop-color="#648b61"/><stop offset="1" stop-color="#102e24"/>
+    </radialGradient>
+    <g id="branch">
+      <path d="M0 320Q-20 160 0 0" fill="none" stroke="#a6b579" stroke-width="4"/>
+      <g fill="currentColor" stroke="#a6b579" stroke-width="1.5">
+        <path d="M0 6Q-45 -54 8 -107Q45 -51 0 6Z"/>
+        <path d="M-6 65Q-111 65 -133 -21Q-53 -19 -6 65Z"/>
+        <path d="M-6 96Q45 2 121 9Q101 92 -6 96Z"/>
+        <path d="M-8 140Q-128 130 -166 40Q-64 37 -8 140Z"/>
+        <path d="M-8 170Q59 68 150 81Q115 166 -8 170Z"/>
+        <path d="M-6 215Q-139 216 -178 115Q-71 111 -6 215Z"/>
+        <path d="M-6 244Q65 147 161 157Q121 246 -6 244Z"/>
+      </g>
+    </g>
+  </defs>
+  <rect width="1400" height="700" fill="url(#light)"/>
+  <use href="#branch" transform="translate(1020 245) rotate(-45) scale(1.8)" color="#3b6d49"/>
+  <use href="#branch" transform="translate(1190 220) rotate(12) scale(1.55)" color="#527c51"/>
+  <use href="#branch" transform="translate(1390 360) rotate(44) scale(1.75)" color="#315a3f"/>
+  <use href="#branch" transform="translate(820 500) rotate(-65) scale(1.15)" color="#355c42"/>
+  <use href="#branch" transform="translate(1080 515) rotate(-23) scale(1.25)" color="#638757"/>
+</svg>
